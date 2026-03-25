@@ -24,31 +24,7 @@ JWT Authentication
 AI / External Services
 Groq API (LLaMA 3)
 Pinecone (vector embeddings – optional/advanced)
-📁 Project Structure
-finance-advisor/
-│
-├── backend/
-│   ├── src/
-│   │   ├── db/              # Database connection
-│   │   ├── middleware/      # Auth middleware
-│   │   ├── routes/          # API routes (expenses, auth, etc.)
-│   │   ├── services/        # AI + embedding logic
-│   │   └── index.ts         # Server entry
-│   │
-│   ├── .env
-│   └── package.json
-│
-├── frontend/
-│   ├── src/
-│   │   ├── components/      # UI components
-│   │   ├── pages/           # Pages (Dashboard, Expenses, etc.)
-│   │   ├── context/         # Auth Context
-│   │   ├── services/        # API calls
-│   │   └── App.tsx
-│   │
-│   └── package.json
-│
-└── README.md
+
 🧠 How the App Works (Beginner Explanation)
 🔐 Authentication Flow
 User logs in → backend generates JWT
